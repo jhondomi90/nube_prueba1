@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+  <html>
     <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
-        // put your code here
+          include("php/links.html");
         ?>
+    </head>
+
+    <body>
+
+      <?php
+        include("php/menu.php");
+      ?>
+        
+
+
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
-</html>
+  </html>
